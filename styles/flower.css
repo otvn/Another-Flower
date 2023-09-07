@@ -1,0 +1,227 @@
+*{
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+   
+    background: rgba(229, 84, 115, 0.10);  
+}
+.header_details{
+    padding: 197px 240px 67px 147px;
+}
+.header_img{
+padding: 50px 0px 0px;
+}
+
+.header_title{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+margin-bottom: 32px;
+}
+.header_description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.primary_button{
+border-radius: 8px;
+background: #E55473;
+border: 0px;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 43px;
+
+}
+.featured_flowers{
+    margin-top: 178px;
+    text-align: center;
+   max-width: 1140px;
+}
+.featured_title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+
+}
+.featured_description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.flower{
+    display: flex;
+    gap: 24px;
+}
+.box-shadow1{
+ margin-top: 50px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 370px;
+height: 538px;
+flex-shrink: 0;
+margin-bottom: 32px;
+}
+.box-shadow2{
+ margin-top: 50px;
+ border-radius: 300px 300px 0px 0px;
+ background: rgba(5, 151, 160, 0.15);
+ width: 400px;
+ height: 538px;
+ flex-shrink: 0;
+ 
+ margin-bottom: 32px;
+}
+.box-shadow3{
+ margin-top: 50px;
+ border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 370px;
+height: 538px;
+margin-bottom: 32px;
+
+}
+.flower_tree1
+{
+    padding: 100px 30px 0px 30px;
+
+}
+.flower_tree2{
+    padding: 130px 30px 0px 30px;
+
+}
+.flower_tree3{
+    padding: 50px 30px 0px 30px;
+
+}
+a{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.discount{
+    display: flex;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 128px;
+align-items: center;
+}
+.discount_details{
+    width: 50%;
+    padding: 100px 2px 0px 100px;
+}
+span{
+    color: #E55473;
+font-size: 40px;
+font-weight: 800;
+
+}
+.discount_description{
+ color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 32px;
+    text-align: center;
+  
+}
+.discount .primary_button{
+  margin: 0px 0px 0px 300px;
+}
+.discount_img{
+    padding: 100px 100px 100px 0px;
+}
+.instagram{
+    margin-top: 128px;
+  
+}
+.instagram_img{
+    padding: 20px 0px 20px 250px;
+
+}
+.i{
+    width: 250px;
+    height: 300px;
+    padding-right: 20px;
+    
+}
+.latest{
+    background-image: url('../bejal/Rectangle\ 9.png');
+    background-repeat:no-repeat;
+    margin-top: 128px;
+    /* max-width: 1140px; */
+    margin-left:150px  ;
+    margin-right: 80px;
+    
+}
+.latest-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 10px;
+ padding-top: 122px;
+}
+.information{
+  
+  padding: 0px 0px 70px 250px;
+
+}
+.info{
+border-radius: 8px;
+background: #FFF;
+width: 650px;
+height: 60px;
+flex-shrink: 0;
+margin-right: 20px;
+padding: 0px 23px 0px 14px ;
+}
+.bonus{
+    margin-top: 60px;
+    background: rgba(229, 84, 115, 0.10);  
+   max-width: 1300px;
+
+}
+.bonus_form{
+   padding: 40px 100px 50px;
+   
+}
+.bonus_info,.bonus_info1,.bonus_info2{
+    border-radius: 8px;
+background: #FFF;
+width: 650px;
+height: 60px;
+flex-shrink: 0;
+margin-right: 50px;
+padding: 0px 23px 0px 40px ;
+margin-bottom: 20px;
+
+}
+.bonus .primary_button{
+    margin-left:250px;
+    margin-top: 30px;
+}
+footer{
+    background: #111010;
+    margin-top: 128px;
+}
+footer .latest-title{
+    color: #FFF;
+}
+footer .discount_description{
+    color: #FFF;
+}
+.footer-description{
+ color: rgba(255, 255, 255, 0.40);
+ font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 32px;
+    text-align: center;
+}
